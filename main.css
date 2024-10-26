@@ -73,7 +73,7 @@ font-size: 17px;
     padding-right: 5px;
 }
 .card-date{
-    font-size: xx-small;
+    font-size: x-small;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .card-content h2 {
@@ -103,10 +103,22 @@ font-size: 17px;
     .card {
         width: calc(50% - 20px);
     }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
 }
 
 @media (max-width: 480px) {
     .card {
         width: 100%;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
 }
