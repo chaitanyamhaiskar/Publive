@@ -30,7 +30,7 @@ fetch(apiUrl)
 
       const text = document.createElement("p");
       text.className = "card-text";
-      text.textContent = item.short_description || "*No desciption available*";
+      text.textContent = item.short_description || "*No description available*";
 
       const date = document.createElement("p");
       date.className = "card-date";
